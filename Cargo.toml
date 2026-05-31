@@ -1,0 +1,15 @@
+[package]
+name = "lau-numerical-linear-algebra"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-numerical-linear-algebra"
+description = "Numerical linear algebra — iterative methods, Krylov subspace methods, eigenvalue algorithms, sparse solvers, preconditioners, SVD, and least squares for large-scale agent simulations"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+num-traits = "0.2"
+
+[dev-dependencies]
+approx = "0.5"
